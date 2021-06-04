@@ -18,7 +18,7 @@ app.use(methodOverride("_method"));
 // mongoose.connect("mongodb://localhost:27017/ICMD", {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.connect("mongodb+srv://Ali:12345@shabz.1fu7s.mongodb.net/ICMD?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
 
-
+// mongodb+srv://<username>:<password>@cluster0.0aefs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 //passport configuration
 app.use(require("express-session")({
